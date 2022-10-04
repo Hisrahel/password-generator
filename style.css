@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    /* background: linear-gradient(310deg, red 65%, black 40%); */
+    background: red;
+}
+.row{
+    background: black;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 15px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(white 57%, red 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+fieldset{
+    width: 80%;
+    height: 85%;
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.user{
+    color: white;
+}
+
+input{
+    width: 350px;
+    height: 35px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 120px;
+    font-size: 13px;
+}
+.inform{
+    line-height: 40px;
+    position: relative;
+}
+input:focus{
+    outline: none;
+    font-size: 13px;
+    color: black;
+}
+i{
+    position: absolute;
+    top: 134px;
+    right: 20px;
+}
+button{
+    padding: 2px 15px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+}
+/* .copy{
+    position: absolute;
+    top: 44px;
+    right: 10px;
+    border: none;
+    background: black;
+    color: white;
+} */
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+  #message h3{
+    letter-spacing: 2px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
