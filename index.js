@@ -7,7 +7,7 @@ function myFunction() {
     }
   }
 
-  var myInput = document.getElementById("myInput");
+var myInput = document.getElementById("myInput");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");

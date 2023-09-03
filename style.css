@@ -6,7 +6,7 @@
 }
 body{
     /* background: linear-gradient(310deg, red 65%, black 40%); */
-    background: red;
+    background: rgb(255, 255, 255);
 }
 .row{
     background: black;
@@ -31,7 +31,7 @@ h1{
     font-weight: 900;
     padding-top: 15px;
     letter-spacing: 5px;
-    background: -webkit-linear-gradient(white 57%, red 50%);
+    background: -webkit-linear-gradient(white 60%, rgb(109, 103, 103) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -136,7 +136,7 @@ button{
     left: -35px;
     content: "✖";
   }
-  @media (min-width: 250px) and (max-width: 576px){
+   @media (min-width: 250px) and (max-width: 576px){
     .container{
         width: 95% !important;
         margin: auto;
@@ -152,4 +152,4 @@ button{
         width: 95%;
         padding: 10px;
     }
-  }
+  } 
